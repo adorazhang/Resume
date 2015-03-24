@@ -1,7 +1,7 @@
 *.db
 *.log
-*.tex
 *.bak
 *.gz
 *.sty
 *.sav
+*.lnk

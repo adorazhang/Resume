@@ -1,0 +1,235 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Qiao Zhang's resume
+%%   - based on a template by Michael DeCorte
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%
+%% The following code sets up the document formatting
+%%
+
+%this assumes that res_yy.sty is in some path
+\documentstyle[hyperref, margin, line]{res_yy}
+
+\hypersetup{backref,pdfpagemode=Full,colorlinks=true,urlcolor=black,backref}
+
+\addtolength{\oddsidemargin}{-0.45in}
+\addtolength{\voffset}{-0.30in}
+\addtolength{\textwidth}{1.00in} \addtolength{\textheight}{1.50in}
+\renewcommand{\namefont}{\LARGE\emph}
+
+
+
+%%
+%% The following code defines some macros for terms which have raised font
+%% (ie 4\fourth would result 4th with the 'th' raised (superscripted)
+%%
+
+\def\Cplusplus{{\rm C\raise.5ex\hbox{\small ++}}}
+\def\CSharp{{\rm C\raise.5ex\hbox{\small \#}}}
+% 'st' 'nd' 'rd' 'th' superscripts for numbers
+\def\first{{\raise.5ex\hbox{\small st}}}
+\def\second{{\raise.5ex\hbox{\small nd}}}
+\def\third{{\raise.5ex\hbox{\small rd}}}
+\def\fourth{{\raise.5ex\hbox{\small th}}}
+
+
+
+%%
+%% starting the actual document
+%%
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Ms. Qiao(Adora) ZHANG}
+ \moveleft.5\hoffset\centerline{adora91@gmail.com}
+ \moveleft.5\hoffset\centerline{+1 (412)-961-2454}
+ \moveleft.5\hoffset\centerline{\href{http://www.qiaozhang.info/}{http://www.qiaozhang.info/}}
+ \moveleft.5\hoffset\centerline{\href{http://www.github.com/adorazhang/}{http://www.github.com/adorazhang/}}
+
+\begin{resume}
+
+\moveleft.5\hoffset\centerline{\emph{Looking for internship opportunities during summer 2015 and job openings starting in 2016.}}
+
+\section{\textsc{POSITION PREFERENCES}}
+    Web Development\\
+    Software Engineering
+    
+\section{\textsc{EDUCATION}}
+\begin{formatb}
+  \title{l}\employer{r}\\
+   \body\\
+\end{formatb}
+
+\employer{Sep 2013 - Dec 2015 (Anticipated)}
+\title{\textbf{University of Pittsburgh}}
+\begin{position}
+	{\sl Master's Student in Computer Science (GPA - 3.45 / 4.00)}
+\end{position}
+
+\employer{Sep 2009 - Jul 2013}
+\title{\textbf{Beijing Normal University}}
+\begin{position}
+ 	{\sl B.S in Computer Science}\\
+    Thesis: Growth and Competition of Field Crops, A Computer Stochastic Simulation
+\end{position}
+
+\employer{Sep 2012 - Dec 2012}
+\title{\textbf{Coursera}}
+\begin{position}
+    \href{http://qiaozhang-wordpress.stor.sinaapp.com/uploads/2012/11/SNAcertificate.pdf}{Social Network Analysis (With Distinction)}, \href{http://qiaozhang-wordpress.stor.sinaapp.com/uploads/2012/09/ModelCert.pdf}{Model Thinking}
+\end{position}
+
+
+
+\section{\textsc{SKILLS}}
+
+\textbf{Programming Languages}\\
+Java(Android), Python, HTML/CSS, JavaScript(jQuery), PHP, Go, C/C++, Netlogo, R, Matlab
+
+\textbf{Others}\\
+Painting, Graphical Design, Photography
+
+
+
+\section{\textsc{PROJECTS}}
+\begin{formatb}
+  \title{l}\employer{r}\\
+   \body\\
+\end{formatb}
+
+\employer{Feb 2015}
+\title{\textbf{\href{https://github.com/adorazhang/AndroidOpenCVTracking}{A Java Simulation of Transactional Row Column Stores}}}
+\begin{position}
+	A Java simulation of a simple database management system utilizing row column stores.
+\end{position}
+
+\employer{September 2014}
+\title{\textbf{\href{https://github.com/adorazhang/AndroidOpenCVTracking}{Camera Object Tracking Android App}}}
+\begin{position}
+An object tracking Android application using OpenCV library.
+\end{position}
+
+\employer{September 2014}
+\title{\textbf{\href{https://github.com/adorazhang/SimpleRPC}{Simple Remote Procedure Call Implementation}}}
+\begin{position}
+A simple RPC implementation in Golang.
+\end{position}
+
+\employer{September 2014}
+\title{\textbf{\href{https://www.youtube.com/watch?v=MUibU75pujY}{RapidBoard Virtual Keyboard}}}
+\begin{position}
+A virtual keyboard application for course homework with collaboration. Implemented in Java.
+Demo: \url{https://www.youtube.com/watch?v=MUibU75pujY}
+\end{position}
+
+\employer{Aug 2014}
+\title{\textbf{\href{http://intranet.cs.pitt.edu/inv.new/}{Department Inventory System}}}
+\begin{position}
+ An internal inventory system for department staff use written in PHP and jQuery.
+\end{position}
+
+
+\employer{March 2014}
+\title{\textbf{\href{https://github.com/adorazhang/CodeSnippets/tree/master/visualization-project}{Visualization of Settlement Change in the Chifeng Region}}}
+\begin{position}
+A web-based visualization project with collaboration written in D3 and jQuery.
+\end{position}
+
+
+\employer{Apr 2013}
+\title{\textbf{\href{https://github.com/adorazhang/CodeSnippets/blob/master/growth-model-root-competition.nlogo}{Plant Growth and Competition Model}}}
+\begin{position}
+ A plant growth and competition stochastic simulation based on two-layer ZOI model.
+\end{position}
+
+%
+%\employer{Nov 2012}
+%\title{\textbf{\href{http://github.com/adorazhang/StreamGraph/}{Stream Graph Tool for Data Visualization}}}
+%\begin{position}
+% A stream graph tool for data visualization using Protovis and jQuery JavaScript Library.
+%\end{position}
+
+\employer{Nov 2012}
+\title{\textbf{\href{http://github.com/adorazhang/CodeSnippets/blob/master/Empirical\%20Network\%20Analysis.pdf}{Empirical Network Analysis Project}}}
+\begin{position}
+ Constructed and analyzed a network of the questionnaire application users using Gephi.
+\end{position}
+
+%
+%\employer{Sep 2011}
+%\title{\textbf{\href{http://apps.renren.com/whoknowsme/}{Questionnaire Application}}}
+%\begin{position}
+% Developed (with collaboration) an application which allows users to generate questionnaires and invite friends to answer using Linux, PHP, MySQL and \href{http://dev.renren.com/}{Renren.com API}.
+%\end{position}
+%
+%\employer{Jul 2013}
+%\title{\textbf{\href{http://check-checker.appspot.com/}{Check Checker}}}
+%\begin{position}
+% An automatic tool used for checking VISA administrative processing status.
+%\end{position}
+
+
+
+\section{\textsc{EXPERIENCES}}
+\begin{formatb}
+	\title{l}\employer{r}\\
+	\location{l}\\
+	\body\\
+\end{formatb}
+
+\employer{Aug 2013 - Present}
+\title{\textbf{Teaching Assistant}}
+\location{\sl University of Pittsburgh}
+\begin{position}
+	CS 1550 Introduction to Operating Systems; CS 0007 Intermediate Programming; CS 1520 Programming Languages for Web Applications.
+\end{position}
+
+
+\employer{Sep 2012 - Jan 2013}
+\title{\textbf{Research Assistant (Non-paid)}}
+\location{\sl Natural Language Processing Group, Tsinghua University}
+\begin{position}
+	Improved \href{http://app.thunlp.org/weibo/index.jsp}{a Weibo application} which presents users with their tweet keywords.\\
+	Implemented a scale-free stream graph for data visualization using Protovis library and jQuery.
+	%��������
+\end{position}
+
+
+\section{\textsc{SOCIAL ACTIVITIES}}
+
+\textbf{Volunteer at Baige Student Volunteer Association} \hfill Sep 2009 - Sep 2011\\
+   Served as the team leader of network department.
+
+\textbf{Volunteer at ACM Conference on Knowledge Discovery and Data Mining} \hfill Aug 2011
+
+
+
+
+
+
+\section{\textsc{FELLOWSHIPS AND AWARDS}}
+Social Work Scholarship (Beijing Normal University)  \hfill Sep 2011\\
+Arts and Sciences Fellowship (University of Pittsburgh) \hfill Jan 2014
+
+
+
+
+\section{\textsc{ENGLISH PROFICIENCY}}
+\textbf{TOEFL}\\
+Listening 27, Reading 27, Speaking 23, Writing 28, Total 105 \hfill Nov 2011
+
+\textbf{GRE}\\
+Verbal 161(86\%), Quantitative 163(88\%), Analytical Writing 3.0(11\%)\hfill Oct 2012\\
+Verbal 153(57\%), Quantitative 166(94\%), Analytical Writing 3.5(30\%)\hfill Nov 2012
+
+\textbf{Pitt ELI English Language Comprehensibility Test for TAs/TFs}\\
+Test Score 4: TA/TF may be certified for laboratories, recitations, and other classes. \hfill Oct 2013
+
+
+
+
+\end{resume}
+\end{document}
